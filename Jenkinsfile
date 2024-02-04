@@ -14,7 +14,7 @@ pipeline {
                 disableConcurrentBuilds()
     }
     parameters {
-        string(name: 'version', defaultValue: '1.0.0', description: 'What is the artifact version?')
+        string(name: 'version', defaultValue: '', description: 'What is the artifact version?')
         string(name: 'environment', defaultValue: 'dev', description: 'What is the environment?')
     }
     //build
