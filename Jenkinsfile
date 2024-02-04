@@ -28,6 +28,15 @@ pipeline {
             }
         }
 
+        stage('Print version') {
+            steps {
+                sh """
+                    echo "version: ${params.version}"
+                    echo "environment: ${params.environment}"
+                """
+            }
+        }
+
     }
     // post build
     post { 
