@@ -1,4 +1,4 @@
-bucket = "jaiaws446-state-dev"
-key    = "multienv"
+bucket = "jaiaws446-state-prod"
+key    = "catalogue"
 region = "us-east-1"
-dynamodb_table = "jaiaws446-locking-dev"
+dynamodb_table = "jaiaws446-locking-prod"
